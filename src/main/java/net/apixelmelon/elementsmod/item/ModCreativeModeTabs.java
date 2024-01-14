@@ -14,10 +14,15 @@ public class ModCreativeModeTabs {
     // Deals with the creative mode tabs
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ElementsMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> FIRST_TAB = CREATIVE_MODE_TABS.register("first_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.WHITE_WOOL))
-                    .title(Component.translatable("creativetab.first_tab"))
+    public static final RegistryObject<CreativeModeTab> ELEMENTS_TAB = CREATIVE_MODE_TABS.register("elements_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AIR_ORB.get()))
+                    .title(Component.translatable("creativetab.elements_tab"))
                     .displayItems(((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModItems.AIR_ORB.get());
+                        pOutput.accept(ModItems.WATER_ORB.get());
+                        pOutput.accept(ModItems.EARTH_ORB.get());
+                        pOutput.accept(ModItems.FIRE_ORB.get());
 
                     }))
                     .build());

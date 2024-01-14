@@ -2,6 +2,7 @@ package net.apixelmelon.elementsmod;
 
 import com.mojang.logging.LogUtils;
 import net.apixelmelon.elementsmod.item.ModCreativeModeTabs;
+import net.apixelmelon.elementsmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +27,7 @@ public class ElementsMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
