@@ -18,10 +18,14 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.elements_tab"))
                     .displayItems(((pParameters, pOutput) -> {
 
+                        // Orbs
                         pOutput.accept(ModItems.AIR_ORB.get());
                         pOutput.accept(ModItems.WATER_ORB.get());
                         pOutput.accept(ModItems.EARTH_ORB.get());
                         pOutput.accept(ModItems.FIRE_ORB.get());
+
+                        // Staves
+                        pOutput.accept(ModItems.WOODEN_MAGIC_STAFF.get());
 
                     }))
                     .build());

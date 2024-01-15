@@ -16,10 +16,14 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // Orbs
         simpleItem(ModItems.AIR_ORB);
         simpleItem(ModItems.WATER_ORB);
         simpleItem(ModItems.EARTH_ORB);
         simpleItem(ModItems.FIRE_ORB);
+
+        // Staves
+        simpleItem(ModItems.WOODEN_MAGIC_STAFF);
     }
 
     private void simpleItem(RegistryObject<Item> item) {
