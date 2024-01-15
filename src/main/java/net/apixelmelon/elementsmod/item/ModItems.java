@@ -12,6 +12,8 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ElementsMod.MOD_ID);
 
     // Orbs
+    public static final RegistryObject<Item> DORMANT_ORB = ITEMS.register("dormant_orb",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AIR_ORB = ITEMS.register("air_orb",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WATER_ORB = ITEMS.register("water_orb",

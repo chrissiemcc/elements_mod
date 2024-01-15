@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems(((pParameters, pOutput) -> {
 
                         // Orbs
+                        pOutput.accept(ModItems.DORMANT_ORB.get());
                         pOutput.accept(ModItems.AIR_ORB.get());
                         pOutput.accept(ModItems.WATER_ORB.get());
                         pOutput.accept(ModItems.EARTH_ORB.get());

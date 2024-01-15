@@ -17,6 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // Orbs
+        simpleItem(ModItems.DORMANT_ORB);
         simpleItem(ModItems.AIR_ORB);
         simpleItem(ModItems.WATER_ORB);
         simpleItem(ModItems.EARTH_ORB);
