@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dormant_orb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elementsmod:dormant_orb"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementsmod:wooden_dormant_staff"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dormant_orb",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementsmod:wooden_dormant_staff"
+    ]
+  },
+  "sends_telemetry_event": false
+}

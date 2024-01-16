@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "elementsmod:dormant_orb"
+    },
+    "S": {
+      "item": "elementsmod:wooden_staff"
+    }
+  },
+  "pattern": [
+    "   ",
+    " O ",
+    " S "
+  ],
+  "result": {
+    "item": "elementsmod:wooden_dormant_staff"
+  },
+  "show_notification": true
+}
