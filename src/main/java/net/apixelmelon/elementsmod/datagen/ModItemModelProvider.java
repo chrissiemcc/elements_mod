@@ -25,6 +25,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Staves
         simpleItem(ModItems.WOODEN_STAFF);
+        simpleItem(ModItems.WOODEN_DORMANT_STAFF);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

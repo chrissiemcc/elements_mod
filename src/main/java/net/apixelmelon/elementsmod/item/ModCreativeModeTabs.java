@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
 
                         // Staves
                         pOutput.accept(ModItems.WOODEN_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_DORMANT_STAFF.get());
 
                     }))
                     .build());
