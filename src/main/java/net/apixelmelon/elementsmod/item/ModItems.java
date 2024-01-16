@@ -24,7 +24,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     // Staves
-    public static final RegistryObject<Item> WOODEN_MAGIC_STAFF = ITEMS.register("wooden_magic_staff",
+    public static final RegistryObject<Item> WOODEN_STAFF = ITEMS.register("wooden_staff",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -24,7 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FIRE_ORB);
 
         // Staves
-        simpleItem(ModItems.WOODEN_MAGIC_STAFF);
+        simpleItem(ModItems.WOODEN_STAFF);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

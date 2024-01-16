@@ -26,7 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FIRE_ORB.get());
 
                         // Staves
-                        pOutput.accept(ModItems.WOODEN_MAGIC_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_STAFF.get());
 
                     }))
                     .build());
