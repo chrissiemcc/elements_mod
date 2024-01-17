@@ -2,7 +2,10 @@ package net.apixelmelon.elementsmod;
 
 import com.mojang.logging.LogUtils;
 import net.apixelmelon.elementsmod.entity.ModEntities;
-import net.apixelmelon.elementsmod.entity.client.StaffProjectileRenderer;
+import net.apixelmelon.elementsmod.entity.client.AirStaffProjectileRenderer;
+import net.apixelmelon.elementsmod.entity.client.EarthStaffProjectileRenderer;
+import net.apixelmelon.elementsmod.entity.client.FireStaffProjectileRenderer;
+import net.apixelmelon.elementsmod.entity.client.WaterStaffProjectileRenderer;
 import net.apixelmelon.elementsmod.item.ModCreativeModeTabs;
 import net.apixelmelon.elementsmod.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -62,7 +65,11 @@ public class ElementsMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            EntityRenderers.register(ModEntities.STAFF_PROJECTILE.get(), StaffProjectileRenderer::new);
+            // Staff Projectiles
+            EntityRenderers.register(ModEntities.AIR_STAFF_PROJECTILE.get(), AirStaffProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.WATER_STAFF_PROJECTILE.get(), WaterStaffProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.EARTH_STAFF_PROJECTILE.get(), EarthStaffProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.FIRE_STAFF_PROJECTILE.get(), FireStaffProjectileRenderer::new);
         }
     }
 }

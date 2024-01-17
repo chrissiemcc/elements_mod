@@ -23,17 +23,17 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.network.NetworkHooks;
 
-public class StaffProjectileEntity extends Projectile {
+public class AirStaffProjectileEntity extends Projectile {
     private static final EntityDataAccessor<Boolean> HIT =
-            SynchedEntityData.defineId(StaffProjectileEntity.class, EntityDataSerializers.BOOLEAN);
+            SynchedEntityData.defineId(AirStaffProjectileEntity.class, EntityDataSerializers.BOOLEAN);
     private int counter = 0;
 
-    public StaffProjectileEntity(EntityType<? extends Projectile> pEntityType, Level pLevel) {
+    public AirStaffProjectileEntity(EntityType<? extends Projectile> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
     }
 
-    public StaffProjectileEntity(Level pLevel, Player player) {
-        super(ModEntities.STAFF_PROJECTILE.get(), pLevel);
+    public AirStaffProjectileEntity(Level pLevel, Player player) {
+        super(ModEntities.AIR_STAFF_PROJECTILE.get(), pLevel);
         setOwner(player);
         BlockPos blockpos = player.blockPosition();
         double d0 = (double)blockpos.getX() + 0.5D;
