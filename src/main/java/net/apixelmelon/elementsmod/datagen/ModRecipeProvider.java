@@ -21,7 +21,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // Staff Recipes
         // Wooden Dormant Staff
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_DORMANT_STAFF.get())
-                .pattern("   ")
                 .pattern(" O ")
                 .pattern(" S ")
                 .define('S', ModItems.WOODEN_STAFF.get())

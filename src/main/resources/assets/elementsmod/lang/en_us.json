@@ -6,6 +6,10 @@
   "item.elementsmod.earth_orb": "Earth Orb",
   "item.elementsmod.fire_orb": "Fire Orb",
   "item.elementsmod.water_orb": "Water Orb",
+  "item.elementsmod.wooden_air_staff": "Wooden Air Staff",
   "item.elementsmod.wooden_dormant_staff": "Wooden Dormant Staff",
-  "item.elementsmod.wooden_staff": "Wooden Staff"
+  "item.elementsmod.wooden_earth_staff": "Wooden Earth Staff",
+  "item.elementsmod.wooden_fire_staff": "Wooden Fire Staff",
+  "item.elementsmod.wooden_staff": "Wooden Staff",
+  "item.elementsmod.wooden_water_staff": "Wooden Water Staff"
 }

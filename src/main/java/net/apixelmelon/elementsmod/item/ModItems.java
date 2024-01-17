@@ -28,6 +28,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_DORMANT_STAFF = ITEMS.register("wooden_dormant_staff",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_AIR_STAFF = ITEMS.register("wooden_air_staff",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_WATER_STAFF = ITEMS.register("wooden_water_staff",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_EARTH_STAFF = ITEMS.register("wooden_earth_staff",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOODEN_FIRE_STAFF = ITEMS.register("wooden_fire_staff",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

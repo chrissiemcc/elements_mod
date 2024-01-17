@@ -28,6 +28,10 @@ public class ModCreativeModeTabs {
                         // Staves
                         pOutput.accept(ModItems.WOODEN_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_DORMANT_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_AIR_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_WATER_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_EARTH_STAFF.get());
+                        pOutput.accept(ModItems.WOODEN_FIRE_STAFF.get());
 
                     }))
                     .build());
