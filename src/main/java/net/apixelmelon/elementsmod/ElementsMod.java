@@ -1,8 +1,11 @@
 package net.apixelmelon.elementsmod;
 
 import com.mojang.logging.LogUtils;
+import net.apixelmelon.elementsmod.entity.ModEntities;
+import net.apixelmelon.elementsmod.entity.client.StaffProjectileRenderer;
 import net.apixelmelon.elementsmod.item.ModCreativeModeTabs;
 import net.apixelmelon.elementsmod.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +31,7 @@ public class ElementsMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -58,7 +62,7 @@ public class ElementsMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.STAFF_PROJECTILE.get(), StaffProjectileRenderer::new);
         }
     }
 }

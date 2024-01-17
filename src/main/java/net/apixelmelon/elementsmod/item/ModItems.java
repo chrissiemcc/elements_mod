@@ -1,6 +1,10 @@
 package net.apixelmelon.elementsmod.item;
 
 import net.apixelmelon.elementsmod.ElementsMod;
+import net.apixelmelon.elementsmod.item.custom.staves.AirStaffItem;
+import net.apixelmelon.elementsmod.item.custom.staves.EarthStaffItem;
+import net.apixelmelon.elementsmod.item.custom.staves.FireStaffItem;
+import net.apixelmelon.elementsmod.item.custom.staves.WaterStaffItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,13 +33,13 @@ public class ModItems {
     public static final RegistryObject<Item> WOODEN_DORMANT_STAFF = ITEMS.register("wooden_dormant_staff",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_AIR_STAFF = ITEMS.register("wooden_air_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new AirStaffItem(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_WATER_STAFF = ITEMS.register("wooden_water_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new WaterStaffItem(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_EARTH_STAFF = ITEMS.register("wooden_earth_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new EarthStaffItem(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_FIRE_STAFF = ITEMS.register("wooden_fire_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new FireStaffItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
