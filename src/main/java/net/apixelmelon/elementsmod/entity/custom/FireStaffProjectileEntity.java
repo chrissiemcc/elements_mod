@@ -90,7 +90,7 @@ public class FireStaffProjectileEntity extends Projectile {
         boolean hurt = hitEntity.hurt(this.damageSources().mobProjectile(this, livingentity), damage);
         if (hurt) {
             if(hitEntity instanceof LivingEntity livingHitEntity) {
-                livingHitEntity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1), owner);
+                livingHitEntity.setSecondsOnFire(4);
             }
         }
     }

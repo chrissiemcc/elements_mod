@@ -1,7 +1,6 @@
 package net.apixelmelon.elementsmod.item.custom.staves;
 
 import net.apixelmelon.elementsmod.entity.custom.AirStaffProjectileEntity;
-import net.apixelmelon.elementsmod.item.custom.StaffItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 

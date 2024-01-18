@@ -1,4 +1,4 @@
-package net.apixelmelon.elementsmod.item.custom;
+package net.apixelmelon.elementsmod.item.custom.staves;
 
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
