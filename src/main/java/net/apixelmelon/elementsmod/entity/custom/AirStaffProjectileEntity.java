@@ -7,8 +7,6 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -90,7 +88,10 @@ public class AirStaffProjectileEntity extends Projectile {
         boolean hurt = hitEntity.hurt(this.damageSources().mobProjectile(this, livingentity), damage);
         if (hurt) {
             if(hitEntity instanceof LivingEntity livingHitEntity) {
-                livingHitEntity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1), owner);
+                double d0 = livingHitEntity.getX() - this.getX();
+                double d1 = livingHitEntity.getZ() - this.getZ();
+                double d2 = Math.max(d0 * d0 + d1 * d1, 0.001D);
+                livingHitEntity.push(d0 / d2 * 4.0D, 0.2D, d1 / d2 * 4.0D);
             }
         }
     }
