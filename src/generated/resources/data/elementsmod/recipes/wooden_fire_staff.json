@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "elementsmod:fire_orb"
+    },
+    "S": {
+      "item": "elementsmod:wooden_staff"
+    }
+  },
+  "pattern": [
+    " O ",
+    " S "
+  ],
+  "result": {
+    "item": "elementsmod:wooden_fire_staff"
+  },
+  "show_notification": true
+}

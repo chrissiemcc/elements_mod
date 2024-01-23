@@ -19,13 +19,37 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         // Staff Recipes
-        // Wooden Dormant Staff
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_DORMANT_STAFF.get())
+        // Wooden Air Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_AIR_STAFF.get())
                 .pattern(" O ")
                 .pattern(" S ")
                 .define('S', ModItems.WOODEN_STAFF.get())
-                .define('O', ModItems.DORMANT_ORB.get())
-                .unlockedBy(getHasName(ModItems.DORMANT_ORB.get()), has(ModItems.DORMANT_ORB.get()))
+                .define('O', ModItems.AIR_ORB.get())
+                .unlockedBy(getHasName(ModItems.AIR_ORB.get()), has(ModItems.AIR_ORB.get()))
+                .save(pWriter);
+        // Wooden Water Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_WATER_STAFF.get())
+                .pattern(" O ")
+                .pattern(" S ")
+                .define('S', ModItems.WOODEN_STAFF.get())
+                .define('O', ModItems.WATER_ORB.get())
+                .unlockedBy(getHasName(ModItems.WATER_ORB.get()), has(ModItems.WATER_ORB.get()))
+                .save(pWriter);
+        // Wooden Earth Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_EARTH_STAFF.get())
+                .pattern(" O ")
+                .pattern(" S ")
+                .define('S', ModItems.WOODEN_STAFF.get())
+                .define('O', ModItems.EARTH_ORB.get())
+                .unlockedBy(getHasName(ModItems.EARTH_ORB.get()), has(ModItems.EARTH_ORB.get()))
+                .save(pWriter);
+        // Wooden Fire Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_FIRE_STAFF.get())
+                .pattern(" O ")
+                .pattern(" S ")
+                .define('S', ModItems.WOODEN_STAFF.get())
+                .define('O', ModItems.FIRE_ORB.get())
+                .unlockedBy(getHasName(ModItems.FIRE_ORB.get()), has(ModItems.FIRE_ORB.get()))
                 .save(pWriter);
     }
 }

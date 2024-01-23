@@ -26,6 +26,7 @@ public class StaffProjectileModel<T extends Entity> extends EntityModel<T> {
 
         return LayerDefinition.create(meshdefinition, 16, 16);
     }
+
     @Override
     public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 

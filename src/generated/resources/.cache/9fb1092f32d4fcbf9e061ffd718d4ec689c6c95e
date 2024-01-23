@@ -1,3 +1,9 @@
-// 1.20.1	2024-01-17T16:30:19.4549805	Recipes
-7bddc3dff1c8509888510959fb4e8eece53170d5 data/elementsmod/advancements/recipes/misc/wooden_dormant_staff.json
-2d00df61b1cc7f2ccd6af4fd0d1196179afaf3b6 data/elementsmod/recipes/wooden_dormant_staff.json
+// 1.20.1	2024-01-23T16:19:15.0013703	Recipes
+07556075bd2fd0943121ea2ee0a54397d9e07b41 data/elementsmod/advancements/recipes/misc/wooden_air_staff.json
+9597649cfb9a499fd36e48c8353c64acf7db0ce0 data/elementsmod/advancements/recipes/misc/wooden_earth_staff.json
+001847ff32614c3e934785534d75589189f93282 data/elementsmod/advancements/recipes/misc/wooden_fire_staff.json
+c393ef0d93ea0d8bfb6fe204e0f0c829d975d050 data/elementsmod/advancements/recipes/misc/wooden_water_staff.json
+9129396a71145a11df0ada9d9b8486ad47918dd9 data/elementsmod/recipes/wooden_air_staff.json
+98304cad0c37c1a1f628e86b024ba2240537e6cb data/elementsmod/recipes/wooden_earth_staff.json
+95f6bfe8c3595c16226fcdbde1edeceee0dfd3d1 data/elementsmod/recipes/wooden_fire_staff.json
+05e6b675f9f002c12380cd0aa4886901fbf17f69 data/elementsmod/recipes/wooden_water_staff.json

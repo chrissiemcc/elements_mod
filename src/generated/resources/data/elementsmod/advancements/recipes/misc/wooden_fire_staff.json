@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dormant_orb": {
+    "has_fire_orb": {
       "conditions": {
         "items": [
           {
             "items": [
-              "elementsmod:dormant_orb"
+              "elementsmod:fire_orb"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "elementsmod:wooden_dormant_staff"
+        "recipe": "elementsmod:wooden_fire_staff"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_dormant_orb",
+      "has_fire_orb",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "elementsmod:wooden_dormant_staff"
+      "elementsmod:wooden_fire_staff"
     ]
   },
   "sends_telemetry_event": false
