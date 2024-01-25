@@ -1,9 +1,13 @@
-// 1.20.1	2024-01-25T16:39:02.8666394	Item Models: elementsmod
+// 1.20.1	2024-01-25T19:10:16.163111	Item Models: elementsmod
 643024e47cb67373174d60cfbd3ec286635787f7 assets/elementsmod/models/item/air_orb.json
+028ffdd46586cb5421196106ce47117b6b64d143 assets/elementsmod/models/item/air_rune.json
 95b80cafc1907f501adbd4b963128dbf9de7d8da assets/elementsmod/models/item/dormant_orb.json
 58d6d7b2a4c9d3fc2dafcc471bb8290c3fe8e2e4 assets/elementsmod/models/item/earth_orb.json
+96b2feb0e54a918cf1f7c796e5d7b8e402ccaa84 assets/elementsmod/models/item/earth_rune.json
 74b65097e4e64e944d547f54230ec2f1cd63f82f assets/elementsmod/models/item/fire_orb.json
+2b04c631babcf6509b01abc430bf80f77e6707f0 assets/elementsmod/models/item/fire_rune.json
 151e25ad847b3a31bff8c614f34eb5ec436a686a assets/elementsmod/models/item/water_orb.json
+615eb536bc3dd54f08466109d142f7d793ad32d9 assets/elementsmod/models/item/water_rune.json
 b1ee18d5534be6f7b7018da4a112ec13e2190774 assets/elementsmod/models/item/wooden_air_staff.json
 c251a27eed62d8fd9a515d96a32d539bc55c7e3b assets/elementsmod/models/item/wooden_earth_staff.json
 8c9dc8727a9cfa58f83a9928e519de903f327b2e assets/elementsmod/models/item/wooden_fire_staff.json

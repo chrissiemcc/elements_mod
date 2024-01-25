@@ -30,6 +30,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.WOODEN_WATER_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_EARTH_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_FIRE_STAFF.get());
+
+                        // Runes
+                        pOutput.accept(ModItems.AIR_RUNE.get());
+                        pOutput.accept(ModItems.WATER_RUNE.get());
+                        pOutput.accept(ModItems.EARTH_RUNE.get());
+                        pOutput.accept(ModItems.FIRE_RUNE.get());
                     }))
                     .build());
 

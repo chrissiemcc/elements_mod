@@ -39,6 +39,16 @@ public class ModItems {
     public static final RegistryObject<Item> WOODEN_FIRE_STAFF = ITEMS.register("wooden_fire_staff",
             () -> new FireStaffItem(new Item.Properties()));
 
+    // Runes
+    public static final RegistryObject<Item> AIR_RUNE = ITEMS.register("air_rune",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WATER_RUNE = ITEMS.register("water_rune",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EARTH_RUNE = ITEMS.register("earth_rune",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FIRE_RUNE = ITEMS.register("fire_rune",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
