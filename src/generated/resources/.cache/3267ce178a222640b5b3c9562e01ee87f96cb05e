@@ -1,11 +1,10 @@
-// 1.20.1	2024-01-17T16:30:19.4549805	Item Models: elementsmod
+// 1.20.1	2024-01-25T16:39:02.8666394	Item Models: elementsmod
 643024e47cb67373174d60cfbd3ec286635787f7 assets/elementsmod/models/item/air_orb.json
 95b80cafc1907f501adbd4b963128dbf9de7d8da assets/elementsmod/models/item/dormant_orb.json
 58d6d7b2a4c9d3fc2dafcc471bb8290c3fe8e2e4 assets/elementsmod/models/item/earth_orb.json
 74b65097e4e64e944d547f54230ec2f1cd63f82f assets/elementsmod/models/item/fire_orb.json
 151e25ad847b3a31bff8c614f34eb5ec436a686a assets/elementsmod/models/item/water_orb.json
 b1ee18d5534be6f7b7018da4a112ec13e2190774 assets/elementsmod/models/item/wooden_air_staff.json
-932dcbfaba6741dd702c56aa3fcb6fbbb1edb533 assets/elementsmod/models/item/wooden_dormant_staff.json
 c251a27eed62d8fd9a515d96a32d539bc55c7e3b assets/elementsmod/models/item/wooden_earth_staff.json
 8c9dc8727a9cfa58f83a9928e519de903f327b2e assets/elementsmod/models/item/wooden_fire_staff.json
 2bdd2824de220bf4bff87cfb94bbe17c7dff9184 assets/elementsmod/models/item/wooden_staff.json

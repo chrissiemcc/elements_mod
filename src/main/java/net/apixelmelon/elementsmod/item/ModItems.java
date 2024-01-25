@@ -30,8 +30,6 @@ public class ModItems {
     // Staves
     public static final RegistryObject<Item> WOODEN_STAFF = ITEMS.register("wooden_staff",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> WOODEN_DORMANT_STAFF = ITEMS.register("wooden_dormant_staff",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_AIR_STAFF = ITEMS.register("wooden_air_staff",
             () -> new AirStaffItem(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_WATER_STAFF = ITEMS.register("wooden_water_staff",

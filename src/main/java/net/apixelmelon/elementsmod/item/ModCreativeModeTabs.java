@@ -17,7 +17,6 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AIR_ORB.get()))
                     .title(Component.translatable("creativetab.elements_tab"))
                     .displayItems(((pParameters, pOutput) -> {
-
                         // Orbs
                         pOutput.accept(ModItems.DORMANT_ORB.get());
                         pOutput.accept(ModItems.AIR_ORB.get());
@@ -27,12 +26,10 @@ public class ModCreativeModeTabs {
 
                         // Staves
                         pOutput.accept(ModItems.WOODEN_STAFF.get());
-                        pOutput.accept(ModItems.WOODEN_DORMANT_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_AIR_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_WATER_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_EARTH_STAFF.get());
                         pOutput.accept(ModItems.WOODEN_FIRE_STAFF.get());
-
                     }))
                     .build());
 
