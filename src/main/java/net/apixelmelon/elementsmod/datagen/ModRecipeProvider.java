@@ -6,6 +6,8 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -19,6 +21,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         // Staff Recipes
+        // Wooden Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_STAFF.get())
+                .pattern(" S ")
+                .pattern(" O ")
+                .pattern(" S ")
+                .define('S', ItemTags.PLANKS)
+                .define('O', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pWriter);
         // Wooden Air Staff
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_AIR_STAFF.get())
                 .pattern(" O ")

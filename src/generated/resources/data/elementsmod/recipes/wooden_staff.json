@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    " S ",
+    " O ",
+    " S "
+  ],
+  "result": {
+    "item": "elementsmod:wooden_staff"
+  },
+  "show_notification": true
+}
