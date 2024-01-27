@@ -40,6 +40,8 @@ public class ModItems {
             () -> new FireStaffItem(new Item.Properties()));
 
     // Runes
+    public static final RegistryObject<Item> EMPTY_RUNE = ITEMS.register("empty_rune",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AIR_RUNE = ITEMS.register("air_rune",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WATER_RUNE = ITEMS.register("water_rune",

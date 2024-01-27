@@ -31,6 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WOODEN_FIRE_STAFF);
 
         // Runes
+        simpleItem(ModItems.EMPTY_RUNE);
         simpleItem(ModItems.AIR_RUNE);
         simpleItem(ModItems.WATER_RUNE);
         simpleItem(ModItems.EARTH_RUNE);
