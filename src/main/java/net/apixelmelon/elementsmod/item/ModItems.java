@@ -29,15 +29,15 @@ public class ModItems {
 
     // Staves
     public static final RegistryObject<Item> WOODEN_STAFF = ITEMS.register("wooden_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WOODEN_AIR_STAFF = ITEMS.register("wooden_air_staff",
-            () -> new AirStaffItem(new Item.Properties()));
+            () -> new AirStaffItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WOODEN_WATER_STAFF = ITEMS.register("wooden_water_staff",
-            () -> new WaterStaffItem(new Item.Properties()));
+            () -> new WaterStaffItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WOODEN_EARTH_STAFF = ITEMS.register("wooden_earth_staff",
-            () -> new EarthStaffItem(new Item.Properties()));
+            () -> new EarthStaffItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WOODEN_FIRE_STAFF = ITEMS.register("wooden_fire_staff",
-            () -> new FireStaffItem(new Item.Properties()));
+            () -> new FireStaffItem(new Item.Properties().stacksTo(1)));
 
     // Runes
     public static final RegistryObject<Item> EMPTY_RUNE = ITEMS.register("empty_rune",
