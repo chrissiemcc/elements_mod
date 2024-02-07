@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "elementsmod:dormant_orb"
+    },
+    "S": {
+      "item": "elementsmod:air_rune"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SOS",
+    "SSS"
+  ],
+  "result": {
+    "item": "elementsmod:air_orb"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementsmod:water_orb"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_water_rune": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elementsmod:water_rune"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_water_rune",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementsmod:water_orb"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "elementsmod:dormant_orb"
+    },
+    "S": {
+      "item": "elementsmod:earth_rune"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SOS",
+    "SSS"
+  ],
+  "result": {
+    "item": "elementsmod:earth_orb"
+  },
+  "show_notification": true
+}

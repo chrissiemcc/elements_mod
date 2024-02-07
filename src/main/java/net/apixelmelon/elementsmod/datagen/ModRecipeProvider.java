@@ -62,5 +62,43 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('O', ModItems.FIRE_ORB.get())
                 .unlockedBy(getHasName(ModItems.FIRE_ORB.get()), has(ModItems.FIRE_ORB.get()))
                 .save(pWriter);
+
+        // Orb Recipes
+        // Air Orb
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AIR_ORB.get())
+                .pattern("SSS")
+                .pattern("SOS")
+                .pattern("SSS")
+                .define('S', ModItems.AIR_RUNE.get())
+                .define('O', ModItems.DORMANT_ORB.get())
+                .unlockedBy(getHasName(ModItems.AIR_RUNE.get()), has(ModItems.AIR_RUNE.get()))
+                .save(pWriter);
+        // Water Orb
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WATER_ORB.get())
+                .pattern("SSS")
+                .pattern("SOS")
+                .pattern("SSS")
+                .define('S', ModItems.WATER_RUNE.get())
+                .define('O', ModItems.DORMANT_ORB.get())
+                .unlockedBy(getHasName(ModItems.WATER_RUNE.get()), has(ModItems.WATER_RUNE.get()))
+                .save(pWriter);
+        // Earth Orb
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTH_ORB.get())
+                .pattern("SSS")
+                .pattern("SOS")
+                .pattern("SSS")
+                .define('S', ModItems.EARTH_RUNE.get())
+                .define('O', ModItems.DORMANT_ORB.get())
+                .unlockedBy(getHasName(ModItems.EARTH_RUNE.get()), has(ModItems.EARTH_RUNE.get()))
+                .save(pWriter);
+        // Fire Orb
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FIRE_ORB.get())
+                .pattern("SSS")
+                .pattern("SOS")
+                .pattern("SSS")
+                .define('S', ModItems.FIRE_RUNE.get())
+                .define('O', ModItems.DORMANT_ORB.get())
+                .unlockedBy(getHasName(ModItems.FIRE_RUNE.get()), has(ModItems.FIRE_RUNE.get()))
+                .save(pWriter);
     }
 }

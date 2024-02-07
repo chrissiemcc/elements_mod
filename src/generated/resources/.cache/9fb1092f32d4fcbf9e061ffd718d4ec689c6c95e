@@ -1,9 +1,17 @@
-// 1.20.1	2024-01-25T19:45:25.4533508	Recipes
+// 1.20.1	2024-02-07T14:50:43.2782878	Recipes
+d1b24a9f0d381ea61cd50bf9ac638a0108982490 data/elementsmod/advancements/recipes/misc/air_orb.json
+75bcccb476b52b75372c362e586d296fe2c442fa data/elementsmod/advancements/recipes/misc/earth_orb.json
+c8fcc27e5bcce171f8a16cdfeaad66936c173ef6 data/elementsmod/advancements/recipes/misc/fire_orb.json
+edba1d8fa826135444bb47ec10474ffbc3e27613 data/elementsmod/advancements/recipes/misc/water_orb.json
 07556075bd2fd0943121ea2ee0a54397d9e07b41 data/elementsmod/advancements/recipes/misc/wooden_air_staff.json
 9597649cfb9a499fd36e48c8353c64acf7db0ce0 data/elementsmod/advancements/recipes/misc/wooden_earth_staff.json
 001847ff32614c3e934785534d75589189f93282 data/elementsmod/advancements/recipes/misc/wooden_fire_staff.json
 d6f35f4744cfb102a03392bbd4c9433df81badb7 data/elementsmod/advancements/recipes/misc/wooden_staff.json
 c393ef0d93ea0d8bfb6fe204e0f0c829d975d050 data/elementsmod/advancements/recipes/misc/wooden_water_staff.json
+4933ef35af012ae0e1c8764930a1567ead85a33c data/elementsmod/recipes/air_orb.json
+5ae2eff83181a9b5a62e1937ce39754db6c17678 data/elementsmod/recipes/earth_orb.json
+06e7423b193902b3b54f5c245aef0526c1a912c6 data/elementsmod/recipes/fire_orb.json
+390da1a9c765ca0b782983d4a3956aee11b3b466 data/elementsmod/recipes/water_orb.json
 9129396a71145a11df0ada9d9b8486ad47918dd9 data/elementsmod/recipes/wooden_air_staff.json
 98304cad0c37c1a1f628e86b024ba2240537e6cb data/elementsmod/recipes/wooden_earth_staff.json
 95f6bfe8c3595c16226fcdbde1edeceee0dfd3d1 data/elementsmod/recipes/wooden_fire_staff.json
