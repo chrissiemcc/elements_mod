@@ -36,6 +36,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WATER_RUNE);
         simpleItem(ModItems.EARTH_RUNE);
         simpleItem(ModItems.FIRE_RUNE);
+
+        // Energy
+        simpleItem(ModItems.MAGIC_ENERGY);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

@@ -37,6 +37,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.WATER_RUNE.get());
                         pOutput.accept(ModItems.EARTH_RUNE.get());
                         pOutput.accept(ModItems.FIRE_RUNE.get());
+
+                        // Energy
+                        pOutput.accept(ModItems.MAGIC_ENERGY.get());
                     }))
                     .build());
 

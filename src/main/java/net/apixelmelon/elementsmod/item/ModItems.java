@@ -51,6 +51,10 @@ public class ModItems {
     public static final RegistryObject<Item> FIRE_RUNE = ITEMS.register("fire_rune",
             () -> new Item(new Item.Properties()));
 
+    // Energy
+    public static final RegistryObject<Item> MAGIC_ENERGY = ITEMS.register("magic_energy",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

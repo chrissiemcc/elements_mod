@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-27T16:33:20.710683	Item Models: elementsmod
+// 1.20.1	2024-02-14T15:27:46.7140103	Item Models: elementsmod
 643024e47cb67373174d60cfbd3ec286635787f7 assets/elementsmod/models/item/air_orb.json
 028ffdd46586cb5421196106ce47117b6b64d143 assets/elementsmod/models/item/air_rune.json
 95b80cafc1907f501adbd4b963128dbf9de7d8da assets/elementsmod/models/item/dormant_orb.json
@@ -7,6 +7,7 @@
 9ad17fe4f3497e521274608080a14fa25b84c9c9 assets/elementsmod/models/item/empty_rune.json
 74b65097e4e64e944d547f54230ec2f1cd63f82f assets/elementsmod/models/item/fire_orb.json
 2b04c631babcf6509b01abc430bf80f77e6707f0 assets/elementsmod/models/item/fire_rune.json
+d6dfd4fd4b5a4e8bdae73f9893ca6df5fb6aa167 assets/elementsmod/models/item/magic_energy.json
 151e25ad847b3a31bff8c614f34eb5ec436a686a assets/elementsmod/models/item/water_orb.json
 615eb536bc3dd54f08466109d142f7d793ad32d9 assets/elementsmod/models/item/water_rune.json
 b1ee18d5534be6f7b7018da4a112ec13e2190774 assets/elementsmod/models/item/wooden_air_staff.json
