@@ -1,0 +1,12 @@
+Crafting Tree
+Empty Runes + Magic Energy = Runes
+Runes + Dormant Orb = Orb
+Staff + Orb = Magic Staff
+
+Idea List
+Magic Energy creation process
+Empty Runes creation process
+Dormant Orb crafting recipe
+An idea to perhaps separate magic energy into different types of energy
+
+Rune Crafter Block Entity gives the player the option to select a rune to craft using empty runes and magic energy
